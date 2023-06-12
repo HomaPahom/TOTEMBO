@@ -197,5 +197,25 @@
         padding: 10px 10px;
     }
 
+    .sale__cards_card_icon{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    .sale__cards_card_icon_photo{
+        height: 134px;
+    }
+
+    .sale__cards_card__txt{
+        gap: 13px;
+    }
+
+    .sale__cards_card_cash,
+    .sales__cards_card__name,
+    .sale__cards_card_title{
+        font-size: 14px;
+    }
+
 
 }
