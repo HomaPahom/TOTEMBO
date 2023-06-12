@@ -1,0 +1,201 @@
+@media (max-width: 1354px) {
+    .nav{
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    
+    .main__cards{
+        row-gap: 30px;
+    }
+
+    .sale__cards_card{
+        max-width: 350px;
+        width: 100%;
+    }
+
+    .sale__cards{
+        justify-content: center;
+    }
+
+    .news__card_card,
+    .news__card_card_two{
+        max-width: 550px;
+        width: 100%;
+    }
+   
+} 
+
+@media (max-width: 1354px) {
+    .footer__info{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .footer__link{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer__cards_three,
+    .footer__cards_three_maps,
+    .footer__cards_three_social_icon{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer__cards_second,
+    .footer__cards_three,
+    .footer__cards_one{
+        gap: 20px;
+    }
+
+    .grand{
+        padding: 0 0 0 0;
+        display: flex;
+        flex-direction: column;
+        row-gap: 45px;
+    }
+
+    .lannier{
+        display: flex;
+        flex-direction: column;
+        gap: 21px;
+        padding: 73px 0 47px 0;
+    }
+
+    .main__cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .swiss{
+        display: flex;
+        flex-direction: column;
+        gap: 21px;
+        padding: 73px 0 47px 0;
+    }
+
+    .sale__cards{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+@media (max-width: 640px){
+    .main__cards{
+        grid-template-areas: 'lannier'
+                            'swiss'
+                            'grand';
+                            
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .grans__img{
+        height: 234px;
+        padding-top: 84px;
+    }
+
+    .grand__txt{
+        padding-bottom: 30px;
+    }
+}
+
+
+
+@media (max-width: 640px){
+    .nav{
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .link__header{
+        display: flex;
+        gap: 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sale__cards{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0 15px;
+    }
+
+    .sale__cards_card{
+        max-width: initial;
+        padding: 72px 55px 39px 55px;
+    }
+}
+
+@media (max-width: 520px){
+    .news__card{
+        padding: 0 15px;
+    }
+
+    .swiss::before,
+    .lannier::before,
+    .grand::before{
+        padding: 5px 20px;
+        font-size: 16px;
+    }
+
+    .sale__cards_card::before,
+    .sale__cards_card:nth-child(2):before,
+    .sale__cards_card:nth-child(3):before,
+    .sale__cards_card:nth-child(4):before,
+    .sale__cards_card:nth-child(5):before,
+    .sale__cards_card:nth-child(6):before,
+    .sale__cards_card:nth-child(7):before,
+    .sale__cards_card:nth-child(8):before,
+    .sale__cards_card:nth-child(9):before,
+    .sale__cards_card:nth-child(10):before,
+    .sale__cards_card:nth-child(11):before,
+    .sale__cards_card:nth-child(12):before{
+        padding: 5px 20px;
+        font-size: 16px;
+    }
+
+    .news__card_card,
+    .news__card_card_two{
+        padding: 70px 20px 15px 20px;
+    }
+
+    .news__card_card_txt{
+        gap: 20px;
+    }
+
+    .news__card_card_title,
+    .news__card_card_subtitle{
+        font-size: 17px;
+    }
+
+    .news__card_card::before,
+    .news__card_card_two::before{
+        font-size: 14px;
+        padding: 5px 15px;
+    }
+
+    .news__card_card_txt_two{
+        gap: 50px;
+    }
+
+    .footer__link_list a,
+    .footer__cards_three_map_title,
+    .footer__cards_three_n,
+    .footer__cards_three_map_m{
+        font-size: 14px;
+    }
+
+    .sales__cards_card__name{
+        text-align: center;
+    }
+
+    .sale__cards_card_icon a{
+        padding: 10px 10px;
+    }
+
+
+}
