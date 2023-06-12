@@ -204,7 +204,7 @@
     }
 
     .sale__cards_card_icon_photo{
-        height: 134px;
+        height: 100px;
     }
 
     .sale__cards_card__txt{
@@ -215,6 +215,15 @@
     .sales__cards_card__name,
     .sale__cards_card_title{
         font-size: 14px;
+    }
+
+    .header_nav_social{
+        gap: 20px;
+    }
+
+    .sale__title,
+    .news__title{
+        font-size: 20px;
     }
 
 
