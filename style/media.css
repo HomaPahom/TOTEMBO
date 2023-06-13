@@ -156,6 +156,7 @@
     .sale__cards_card:nth-child(12):before{
         padding: 5px 20px;
         font-size: 16px;
+        position: absolute;
     }
 
     .news__card_card,
